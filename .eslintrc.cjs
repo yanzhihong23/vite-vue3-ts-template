@@ -12,12 +12,13 @@ module.exports = {
     sourceType: 'module',
     parser: '@typescript-eslint/parser',
   },
-  plugins: ['vue', '@typescript-eslint', 'prettier'],
+  plugins: ['unused-imports', 'vue', '@typescript-eslint', 'prettier'],
   rules: {
     indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
     'vue/multi-word-component-names': 'off',
+    'unused-imports/no-unused-imports': 'error',
   },
 }
