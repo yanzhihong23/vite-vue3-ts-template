@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import vueTypeImports from 'vite-plugin-vue-type-imports'
 import eslintPlugin from 'vite-plugin-eslint'
 import svgLoader from 'vite-svg-loader'
 import viteImagemin from 'vite-plugin-imagemin'
@@ -8,6 +9,7 @@ import viteImagemin from 'vite-plugin-imagemin'
 export default defineConfig({
   plugins: [
     vue(),
+    vueTypeImports(),
     viteImagemin({
       gifsicle: {
         optimizationLevel: 7,
