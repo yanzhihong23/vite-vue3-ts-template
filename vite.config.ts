@@ -28,12 +28,7 @@ export default defineConfig({
     }),
     svgLoader({
       svgo: false,
-      svgoConfig: {
-        plugins: [
-          { name: 'removeViewBox', active: false },
-          { name: 'removeDimensions', active: true },
-        ],
-      },
+      defaultImport: 'component',
     }),
     eslintPlugin({
       include: ['src/**/*.js, src/**/*.vue', 'src/*.js', 'src/*.vue'],
