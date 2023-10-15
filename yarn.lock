@@ -4110,10 +4110,10 @@ vite-plugin-rewrite-all@^1.0.1:
   dependencies:
     connect-history-api-fallback "^1.6.0"
 
-vite-plugin-vue-type-imports@^0.2.1:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue-type-imports/-/vite-plugin-vue-type-imports-0.2.4.tgz#733fb75e64681950e01e58d2f82089f0fbd53a64"
-  integrity sha512-qjz1RMd1MgG1gd2KNGo2uDSpGbaB7KwcuUVFZfC8mBdzUG63eR/gJzMUvfpM9JWQ+JTEfEGiLxe6NJvg4n3Kuw==
+vite-plugin-vue-type-imports@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue-type-imports/-/vite-plugin-vue-type-imports-0.2.5.tgz#e3fdc1ea833d3c5cdc124cac871ec2bd80e66aa3"
+  integrity sha512-OfdZc56gVfhdRAjQZdJMR1hl4JQKq8xNAe7ekU9784s/5rfjcerfe/hGpRF4vO44w28LCS6BTPcBwZ7PNvW5+g==
   dependencies:
     "@babel/types" "^7.19.0"
     "@vue/compiler-sfc" "^3.2.24"
