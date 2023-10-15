@@ -3,6 +3,7 @@ import './style.css'
 import App from './App.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
+import 'virtual:svg-icons-register'
 
 const routes = [
   { path: '/', component: Home },

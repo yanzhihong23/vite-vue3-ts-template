@@ -4,10 +4,16 @@ import vueTypeImports from 'vite-plugin-vue-type-imports'
 import eslintPlugin from 'vite-plugin-eslint'
 import svgLoader from 'vite-svg-loader'
 import viteImagemin from 'vite-plugin-imagemin'
+import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import path from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    createSvgIconsPlugin({
+      iconDirs: [path.resolve(process.cwd(), 'src/assets')],
+      symbolId: 'icon-[dir]-[name]',
+    }),
     vue(),
     vueTypeImports(),
     viteImagemin({
