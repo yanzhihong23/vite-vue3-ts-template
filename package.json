@@ -15,7 +15,7 @@
     "axios": "^1.6.8",
     "bin-wrapper": "npm:bin-wrapper-china",
     "vue": "^3.4.27",
-    "vue-router": "^4.3.2"
+    "vue-router": "^4.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.24.7",
