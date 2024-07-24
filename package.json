@@ -41,7 +41,7 @@
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-plugin-vue-type-imports": "^0.2.5",
     "vite-svg-loader": "^5.1.0",
-    "vue-tsc": "^2.0.21"
+    "vue-tsc": "^2.0.28"
   },
   "lint-staged": {
     "*.{js,vue,ts,jsx,tsx}": [
